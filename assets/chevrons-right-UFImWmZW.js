@@ -1,4 +1,4 @@
-import{e}from"./index-Blasb93w.js";/**
+import{e}from"./index-COSY_XLi.js";/**
  * @license lucide-vue-next v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
