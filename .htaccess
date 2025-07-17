@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # Fayl yoki katalog mavjud bo‘lsa, ularga xizmat ko‘rsat
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Aks holda index.html ga yo‘naltir
+  RewriteRule ^ /index.html [L]
+</IfModule>
